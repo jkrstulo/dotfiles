@@ -1,0 +1,29 @@
+[user]
+	name = Jakov Krstulovic Opara
+	email = jakov.krstulovic@gmail.com
+[core]
+	autocrlf = input
+	editor = subl
+[diff]
+	tool = meld
+[difftool]
+	prompt = false
+[difftool "meld"]
+	trustExitCode = true
+	cmd = meld "$LOCAL" "$REMOTE"
+[merge]
+	tool = meld
+[mergetool]
+	prompt = false
+[mergetool "meld"]
+	trustExitCode = true
+	cmd = meld "$LOCAL" "$MERGED" "$REMOTE" --output "$MERGED"
+[alias]
+	tree = log --graph --all --pretty='format:"%C(auto)%h [%ad] %an%d: %s"' --date=short
+	apply-gitignore = !git ls-files -ci --exclude-standard -z | xargs -0 git rm --cached
+[sendemail]
+	smtpserver = smtp.gmail.com
+	smtpserverport = 587
+	smtpencryption = tls
+	smtpuser = jakov.krstulovic@gmail.com
+	smtppass = gtxnlstriuhbwxnd
