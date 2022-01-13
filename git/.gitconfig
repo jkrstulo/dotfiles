@@ -21,10 +21,19 @@
 [alias]
 	tree = log --graph --all --pretty='format:"%C(auto)%h [%ad] %an%d: %s"' --date=short
 	apply-gitignore = !git ls-files -ci --exclude-standard -z | xargs -0 git rm --cached
-[sendemail]
+
+[sendemail "gmail"]
+	smtpuser = jakov.krstulovic@gmail.com
 	smtpserver = smtp.gmail.com
 	smtpserverport = 587
 	smtpencryption = tls
-	smtpuser = jakov.krstulovic@gmail.com
+[sendemail "xyz"]
+	smtpuser = jakov@opara.xyz
+	smtpserver = 	smtp.migadu.com
+	smtpserverport = 465
+	smtpencryption = tls
+[sendemail]
+  identity = gmail
+
 [include]
   path = ~/.gitconfig_local
