@@ -26,4 +26,5 @@
 	smtpserverport = 587
 	smtpencryption = tls
 	smtpuser = jakov.krstulovic@gmail.com
-	smtppass = gtxnlstriuhbwxnd
+[include]
+  path = ~/.gitconfig_local
