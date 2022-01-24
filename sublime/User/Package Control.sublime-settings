@@ -1,0 +1,31 @@
+{
+	"bootstrapped": true,
+	"in_process_packages":
+	[
+	],
+	"installed_packages":
+	[
+		"A File Icon",
+		"AutoWrap",
+		"MagicPython",
+		"Origami",
+		"Package Control",
+		"Pretty JSON",
+		"SideBarEnhancements",
+		"SideBarTools",
+		"StatusBarJsonPath",
+		"SublimeLinter",
+		"SublimeLinter-flake8",
+		"SublimeLinter-json",
+		"SublimeLinter-pycodestyle",
+		"Terminal",
+		"Terminus",
+		"xpath",
+		"YAML Nav",
+		"Zeal",
+	],
+	"repositories":
+	[
+		"https://github.com/akirk/StatusBarJsonPath.git"
+	],
+}

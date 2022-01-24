@@ -1,0 +1,26 @@
+[
+	{ "keys": ["ctrl+shift+h"], "command": "dash_doc" },
+	{ "keys": ["ctrl+shift+t"], "command": "toggle_terminus_panel"},
+    {
+        "keys": ["ctrl+alt+t"], "command": "terminus_open", "args": {
+            "cmd": "ipython",
+            "cwd": "${file_path:${folder}}"
+        }
+    },
+    {
+        "keys": ["f2"],
+        "command": "side_bar_rename"
+    },
+    // {
+    //     "keys": ["ctrl+a"],
+    //     "command": "side_bar_new_file"
+    // },
+    {
+        "keys": ["ctrl+shift+a"],
+        "command": "side_bar_new_directory"
+    },
+    {
+        "keys": ["ctrl+shift+c"],
+        "command": "side_bar_copy_path"
+    },
+]

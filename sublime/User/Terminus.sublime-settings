@@ -1,0 +1,7 @@
+{
+    "256color": true,
+    "unix_term": "xterm-256color",
+    "user_theme_colors": {
+        "background": "#262626",
+    }
+}
